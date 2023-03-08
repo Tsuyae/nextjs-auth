@@ -10,6 +10,11 @@
       "StackName": "amplify-typescriptnext-dev-121617",
       "StackId": "arn:aws:cloudformation:us-east-1:178736657881:stack/amplify-typescriptnext-dev-121617/f0857d30-bdd4-11ed-a0d8-0e3cfae674ab",
       "AmplifyAppId": "d1dpfwwjcnhv0a"
+    },
+    "categories": {
+      "auth": {
+        "typescriptnextf67b597a": {}
+      }
     }
   }
 }

@@ -2,6 +2,11 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import { MenuItem } from '@/components/MenuItem'
 import { InfoPanel } from '@/components/InfoPanel'
+import AmplifyAuthenticator from '@/components/AmplifyAuthenticator'
+
+
+
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,9 +23,9 @@ export default function Home() {
       <main>
 
 
-      <MenuItem itemText='Monthly Gifts' buttonText='View and Manage'/>
-      <InfoPanel/>
-
+      {/* <MenuItem itemText='Monthly Gifts' buttonText='View and Manage'/>
+      <InfoPanel/> */}
+      <AmplifyAuthenticator/>
 
       </main>
     </>
